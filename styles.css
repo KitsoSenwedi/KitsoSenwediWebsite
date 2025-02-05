@@ -1,0 +1,93 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #ffffff;
+}
+header {
+    width: 100%;
+    background: #272343;
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    color: #ffffffa7;
+}
+nav {
+    width: 100%;
+    background: #272343;
+    padding: 10px 0;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+section {
+    background: #bae8e8;
+    padding: 120px 80px;
+    text-align: center;
+    margin-top: 5px;
+}
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-container img {
+    width: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.about-text h2 {
+    text-align: center;
+}
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+.project-card {
+    background: #e3f6f5;
+    padding: 20px;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+form input, form textarea, form button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+form button {
+    background: #272343;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+footer {
+    background: #272343;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5px;
+}
+footer a {
+    color: #e3f6f5;
+    text-decoration: none;
+    margin: 0 10px;
+}
