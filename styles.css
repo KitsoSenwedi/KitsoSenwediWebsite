@@ -43,8 +43,8 @@ section {
     justify-content: center;
 }
 .about-container img {
-    width: 150px;
-    border-radius: 50%;
+    width: 190px;
+    border-radius: 10%;
     margin-right: 20px;
 }
 .about-text h2 {
@@ -60,6 +60,24 @@ section {
     background: #e3f6f5;
     padding: 20px;
     border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+.project-card h3 {
+    margin-top: 10px;
+}
+.project-card p {
+    font-size: 14px;
+    color: #555;
+}
+.project-card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background: #272343;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 form {
     display: flex;
